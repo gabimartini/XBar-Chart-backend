@@ -11,4 +11,4 @@ app.use(bodyParser.json())
 
 consign().include('routes').include('uteis').into(app);
 
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 4000)
